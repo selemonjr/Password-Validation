@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family:sans-serif;
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+.container {
+    width: 50%;
+}
+input{
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px 10px;
+}
+#password {
+    margin-bottom: 20px;
+}
+input[type="button"] {
+    color: #ffff;
+    background: purple;
+    border: none;
+    font-size: 20px;
+}
+.icon {
+    margin-top: -8.4%;
+    left: 73%;
+    position: absolute;
+}
+.text {
+    margin-top: 5px;
+    padding: 5px 5px;
+    display: inline-block;
+    font-size: 15px;
+    color: #fff;
+}
+
+@media(max-width:700px) {
+    input {
+        width: 60%;
+    }
+}
